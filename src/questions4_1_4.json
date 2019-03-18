@@ -1,0 +1,106 @@
+[
+  {
+    "question": "判断正误，用T/F表示. <Great Time>",
+    "answers": [""]
+  },
+  {
+    "question": "Time: 11:00 AM; Date: Oct.5th; Day:Wednesday;",
+    "answers": [""]
+  },
+  {
+    "question": "Place: Garden Park (No. 8, Garden Road); Age: 14-18",
+    "answers": [""]
+  },
+  {
+    "question": "Activities: 1. Get to know new friends; 2. Have a BBQ; 3. Play some games",
+    "answers": [""]
+  },
+  {
+    "question": "Contact Person: Mandy Green; Telephone number: 56784321",
+    "answers": [""]
+  },
+  {
+    "question": "1. Great Time is on the fifth of October",
+    "answers": ["T"]
+  },
+  {
+    "question": "2. Great Time is in the evening",
+    "answers": ["F"]
+  },
+  {
+    "question": "3. Young people can know new friends in Great Time",
+    "answers": ["T"]
+  },
+  {
+    "question": "4. There is no food for Great Time",
+    "answers": ["F"]
+  },
+  {
+    "question": "5. Mandy Green's phone number is 56784321",
+    "answers": ["T"]
+  },
+  {
+    "question": "6. You are ten years old. You can't go to Great Time.",
+    "answers": ["T"]
+  },
+  {
+    "question": "判断正误，用T/F表示.",
+    "answers": [""]
+  },
+  {
+    "question": "Water is important to people, animals and plants. But water pollution is very serious in China and some other countries. People throw a lot of rubbish into the river. The water in the river becomes dirty and smelly. Fish, frogs, shrimps and many plants can't live in it. People can't drink the water from the river or water the plants. That's terrible. How can we protect our water resource?",
+    "answers": [""]
+  },
+  {
+    "question": "Water pollution is very serious in China.",
+    "answers": ["T"]
+  },
+  {
+    "question": "首字母填空, 判断正误，答案用空格分隔：",
+    "answers": [""]
+  },
+  {
+    "question": "Ben Webb is going to be eleven years old tomorrow. Ben's mother is going to give a b() party to him.",
+    "answers": ["big"]
+  },
+  {
+    "question": "Now all the family members are b() now. Mrs Webb is making a birthday cake.",
+    "answers": ["busy"]
+  },
+  {
+    "question": "Ben and his sister help to c() the house.",
+    "answers": ["clean"]
+  },
+  {
+    "question": "Now Mr Webb is talking w() Mrs Webb.",
+    "answers": ["with"]
+  },
+  {
+    "question": "Mr Webb: Can I help you, dear?",
+    "answers": [""]
+  },
+  {
+    "question": "Mrs Webb: Yes. Can you go s() now?",
+    "answers": ["shopping"]
+  },
+  {
+    "question": "Mr Webb: Sure.",
+    "answers": [""]
+  },
+  {
+    "question": "Mrs Webb: Is there any m() in the fridge?",
+    "answers": ["meat"]
+  },
+  {
+    "question": "Mr Webb：No there isn't.",
+    "answers": [""]
+  },
+  {
+    "question": "Mrs Webb: Buy some beef and twenty chicken legs. Is there any orange juice?",
+    "answers": [""]
+  },
+  {
+    "question": "根据上文回答：Is there any beef in the fridge?",
+    "answers": ["No, there isn't.", "No, there is not."]
+  }
+]

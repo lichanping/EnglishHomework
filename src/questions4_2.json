@@ -1,0 +1,45 @@
+[
+  {
+    "question": "The lemon tastes \"sour\". (划线部分提问)",
+    "answers": ["How does the lemon taste?"]
+  },
+  {
+    "question": "There are \"tomatoes\" on the short vine(藤). (划线部分提问)",
+    "answers": ["What's on the short vine?", "What is on the short vine?"]
+  },
+  {
+    "question": "The tall man has \"two\" glasses of wine in his hand. (划线部分提问)",
+    "answers": ["How many glasses of wine does the tall man have in his hand?"]
+  },
+  {
+    "question": "The pineapple is \"hard\".(划线部分提问)",
+    "answers": ["How is the pineapple?", "How does the pineapple feel?"]
+  },
+  {
+    "question": "That hard chair is \"Ben's\". (划线部分提问)",
+    "answers": ["Whose is that hard chair?"]
+  },
+  {
+    "question": "The scarf feels soft. (用hard改成选择疑问句）",
+    "answers": ["Does the scarf feel soft or hard?"]
+  },
+  {
+    "question": "My shadow walks in front of me. （用behind改为选择疑问句）",
+    "answers": ["Does your shadow walk in front of you or behind you?"]
+  },
+  {
+    "question": "They have some puzzles. (改为一般疑问句)",
+    "answers": ["Do they have any puzzles?"]
+  },
+  {
+    "question": "The shadow rises \"behind the hill\". (划线提问)",
+    "answers": ["Where does the shadow rise?"]
+  },
+  {
+    "question": "There are some clothes shops here. (改成否定句)",
+    "answers": [
+      "There aren't any clothes shops here.",
+      "There are not any clothes shops here."
+    ]
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "question": "首字母填词并回答问题",
+    "answers": [""]
+  },
+  {
+    "question": "Human and pets b() have feelings.",
+    "answers": ["both"]
+  },
+  {
+    "question": "We laugh a() smile to show that we are happy. ",
+    "answers": ["and"]
+  },
+  {
+    "question": "But dogs wag tails to tell us they f() happy. ",
+    "answers": ["feel"]
+  },
+  {
+    "question": "When you see cats attack or bite, that shows they are v() angry.",
+    "answers": ["very"]
+  },
+  {
+    "question": "Your pets and you can be friends if you l() and understand e() other.",
+    "answers": ["love each"]
+  },
+  {
+    "question": "1.Do human and pets have feeling?",
+    "answers": ["Yes, they do."]
+  },
+  {
+    "question": "2.What do dogs do when they are happy?",
+    "answers": ["Wag tails", "Wag tails."]
+  },
+  {
+    "question": "3.Why are pets friendly to us? Because ()",
+    "answers": ["we love and understand each other"]
+  },
+  {
+    "question": "4.How can we know the cats are angry?",
+    "answers": ["Attack or bite."]
+  },
+  {
+    "question": "圈出错误处，把正确答案写在横线上",
+    "answers": [""]
+  },
+  {
+    "question": "How much milk are there in the bottle?",
+    "answers": ["is"]
+  },
+  {
+    "question": "He usually go to the bookstore with his mother.",
+    "answers": ["goes"]
+  }
+]

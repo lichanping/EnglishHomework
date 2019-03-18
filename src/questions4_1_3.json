@@ -1,0 +1,126 @@
+[
+  {
+    "question": "用括号（）中所给单词的正确形式填空，答案用空格分隔：",
+    "answers": [""]
+  },
+  {
+    "question": "There (be) some restaurants and a post office around my home.",
+    "answers": ["are"]
+  },
+  {
+    "question": "Touch the (sweater)  ---Oh, they‘re soft and warm.",
+    "answers": ["sweaters"]
+  },
+  {
+    "question": "Don't make a noise! The babies (sleep).",
+    "answers": ["are sleeping"]
+  },
+  {
+    "question": "Who (stand) over there now?",
+    "answers": ["is standing"]
+  },
+  {
+    "question": "Kitty (like) (paint). Look! She (paint).",
+    "answers": ["likes painting is painting"]
+  },
+  {
+    "question": "It's 12 o'clock. The students (have) lunch.",
+    "answers": ["are having"]
+  },
+  {
+    "question": "Don't talk here. Grandparents (sleep).",
+    "answers": ["are sleeping"]
+  },
+  {
+    "question": "I have a pet.(it) tail is long.",
+    "answers": ["Its"]
+  },
+  {
+    "question": "Supergirl doesn't like (write), so she isn't good at (write).",
+    "answers": ["writing writing"]
+  },
+  {
+    "question": "He (want) to (drink) some water.",
+    "answers": ["wants drink"]
+  },
+  {
+    "question": "Can Mary (watch) TV every evening? No, she can't.",
+    "answers": ["watch"]
+  },
+  {
+    "question": "介词填空，答案用空格分隔：",
+    "answers": [""]
+  },
+  {
+    "question": "() Christmas, I get many presents () my parents.",
+    "answers": ["At from"]
+  },
+  {
+    "question": "My little brother can count () one () one hundred.",
+    "answers": ["from to"]
+  },
+  {
+    "question": "Monkeys can swing () their tails.",
+    "answers": ["with"]
+  },
+  {
+    "question": "These bottles () water are for you.",
+    "answers": ["of"]
+  },
+  {
+    "question": "Please draw a map () your school.",
+    "answers": ["of"]
+  },
+  {
+    "question": "首字母填空, 判断正误，答案用空格分隔：",
+    "answers": [""]
+  },
+  {
+    "question": "Hello, everyone! I l() on Green Street. It is not busy. There is a school on it.",
+    "answers": ["live"]
+  },
+  {
+    "question": "It's not far a() from my home. So I walk to school w() my classmates every day.",
+    "answers": ["away with"]
+  },
+  {
+    "question": "There is a bus stop in front of the school gate. Many people t() a bus there.My mother takes a bus at this bus stop too.",
+    "answers": ["take"]
+  },
+  {
+    "question": "There is a small park near the school. I can see many trees and flowers there. People can walk, dance and fly a kite in it. ",
+    "answers": [""]
+  },
+  {
+    "question": "There is a() a mountain in the park. People like climbing the mountain in the morning. How happy they are!",
+    "answers": ["also"]
+  },
+  {
+    "question": "I go to school by bus. 判断正误(T/F)",
+    "answers": ["F", "f"]
+  },
+  {
+    "question": "首字母填空, 判断正误，答案用空格分隔：",
+    "answers": [""]
+  },
+  {
+    "question": "It's Saturday tomorrow. We are going to watch a football match. It's between a Japanese team and a C() team.",
+    "answers": ["Chinese"]
+  },
+  {
+    "question": "The football match is going to be at f() o'clock in the afternoon.",
+    "answers": ["four"]
+  },
+  {
+    "question": "Our teachers Mr Li and Mr Wang are going to watch the football match w() us.",
+    "answers": ["with"]
+  },
+  {
+    "question": "We are going there on f().",
+    "answers": ["foot"]
+  },
+  {
+    "question": "We can come b() at about six in the evening.",
+    "answers": ["back"]
+  }
+]

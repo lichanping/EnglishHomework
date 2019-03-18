@@ -1,0 +1,102 @@
+[
+  {
+    "question": "根据表格中提供的信息，在横线上回答问题<A picnic>",
+    "answers": [""]
+  },
+  {
+    "question": "Date: Friday, June 9th; Time:11 o'clock in the morning",
+    "answers": [""]
+  },
+  {
+    "question": "Place: Shanghai Zoo; Participants: Students of Grade 5;",
+    "answers": [""]
+  },
+  {
+    "question": "Food for lunch:Bring the food you like; Activities: Play ball games",
+    "answers": [""]
+  },
+  {
+    "question": "1.Is it Friday?",
+    "answers": ["Yes, it is."]
+  },
+  {
+    "question": "2.Is the picnic in the afternoon?",
+    "answers": ["No, it isn't.", "No, it is not."]
+  },
+  {
+    "question": "3.Where are the students going?",
+    "answers": ["They are going to Shanghai Zoo."]
+  },
+  {
+    "question": "4.Can they eat and play there?",
+    "answers": ["Yes, they can."]
+  },
+  {
+    "question": "5.Who can have a picnic on that day?",
+    "answers": ["Students of Grade 5."]
+  },
+  {
+    "question": "写出动词的现在分词形式",
+    "answers": [""]
+  },
+  {
+    "question": "work",
+    "answers": ["working"]
+  },
+  {
+    "question": "sit",
+    "answers": ["sitting"]
+  },
+  {
+    "question": "drop",
+    "answers": ["dropping"]
+  },
+  {
+    "question": "判断划线部分发音，用T/F表示",
+    "answers": [""]
+  },
+  {
+    "question": "\"E\"leven tw\"e\"lve",
+    "answers": ["F"]
+  },
+  {
+    "question": "dr\"aw\" f\"our\"teen",
+    "answers": ["T"]
+  },
+  {
+    "question": "阅读信息，填写英语单词，完成短文（字数不限）",
+    "answers": [""]
+  },
+  {
+    "question": "Name: Eddie; Age: Eleven;",
+    "answers": [""]
+  },
+  {
+    "question": "Class: Class Four, Grade Four;",
+    "answers": [""]
+  },
+  {
+    "question": "Student number: 22; Hobby: reading and skating;",
+    "answers": [""]
+  },
+  {
+    "question": "Address: No.12, Garden Road; Phone number: 5669432;",
+    "answers": [""]
+  },
+  {
+    "question": "Hello, I'm Eddie. I am a pupil from ().",
+    "answers": ["Class Four, Grade Four"]
+  },
+  {
+    "question": "In the class, my number is ().",
+    "answers": ["22"]
+  },
+  {
+    "question": "I love () very much. I live at No.12, on Garden Road.",
+    "answers": ["reading and skating"]
+  },
+  {
+    "question": "If you want to see me, please dial 5669432. Please remember my (). Maybe we can be friends.",
+    "answers": ["Phone Number", "Phone number", "phone number"]
+  }
+]

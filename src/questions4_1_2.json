@@ -1,0 +1,109 @@
+[
+  {
+    "question": "How are you doing? （改为同义句）",
+    "answers": ["How are you?"]
+  },
+  {
+    "question": "I like \"sunny and hot days\" best. (划线部分提问)",
+    "answers": ["What weather do you like best?"]
+  },
+  {
+    "question": "The weather in April is warm and wet in Shanghai. （改成否定句，句意不变）",
+    "answers": [
+      "The weather in April isn't cool or dry in Shanghai.",
+      "The weather in April is not cool or dry in Shanghai."
+    ]
+  },
+  {
+    "question": "Grace is walking to school now. （改成同义句）",
+    "answers": ["Grace is going to school on foot now."]
+  },
+  {
+    "question": "The pig lives \"in a pen\". (划线部分提问)",
+    "answers": ["Where does the pig live?"]
+  },
+  {
+    "question": "The mouse has small and sharp teeth. （改成否定句，句意不变）",
+    "answers": ["The mouse doesn't have big or blunt teeth."]
+  },
+  {
+    "question": "There is \"a bag of\" corn on the floor. (划线部分提问)",
+    "answers": ["How much corn is there on the floor?"]
+  },
+  {
+    "question": "Jill has \"five\" loaves of bread. (划线部分提问)",
+    "answers": ["How many loaves of bread does Jill have?"]
+  },
+  {
+    "question": "The farmer is \"feeding his pig\". (划线部分提问)",
+    "answers": ["What is the farmer doing?"]
+  },
+  {
+    "question": "I'd like a large bag of corn. （改成一般疑问句）",
+    "answers": ["Would you like a large bag of corn?"]
+  },
+  {
+    "question": "Peter is \"playing football\" in the playground. (划线部分提问)",
+    "answers": [
+      "What's Peter doing in the playground?",
+      "What is Peter doing in the playground?"
+    ]
+  },
+  {
+    "question": "When's Christmas? （按实际情况回答）",
+    "answers": ["It's in December.", "It is in December."]
+  },
+  {
+    "question": "We often make phone calls to each other. （改成一般疑问句，并用肯定回答）",
+    "answers": [
+      "Do you often make phone calls to each other? Yes, we do.",
+      "Do you often make phone calls to each other?Yes, we do."
+    ]
+  },
+  {
+    "question": "He studies in a high school(改成现在进行时态) Now",
+    "answers": [
+      "he is studying in a high school.",
+      "He is studying in a high school."
+    ]
+  },
+  {
+    "question": "They are watching TV in the living room. （改为一般疑问句，并用肯定回答）",
+    "answers": [
+      "Are they watching TV in the living room?Yes, they are.",
+      "Are they watching TV in the living room? Yes, they are."
+    ]
+  },
+  {
+    "question": "Listen! The birds are \"singing\" in the tree. (划线部分提问)",
+    "answers": ["What are the birds doing in the tree?"]
+  },
+  {
+    "question": "\"Superdog\" feels tired. (写出一句特殊疑问句)",
+    "answers": ["Who feels tired?"]
+  },
+  {
+    "question": "My friend has \"a tin of cola\" for the class party. (划线部分提问)",
+    "answers": ["What does your friend have for the class party? "]
+  },
+  {
+    "question": "Dolly is good at speaking English.(句意不变，转换句型)",
+    "answers": ["Dolly can speak English well."]
+  },
+  {
+    "question": "Tracy walks to the park every week.(句意不变，转换句型)",
+    "answers": ["Tracy goes to the park on foot every week."]
+  },
+  {
+    "question": "My father goes to work by feet.(判断句子对错，有错的改在横线上。)",
+    "answers": ["on foot"]
+  },
+  {
+    "question": "The boy put some ice cream on the bread. (判断句子对错，有错的改在横线上。)",
+    "answers": ["puts"]
+  },
+  {
+    "question": "Old macdonalds farm is big its near our school(正确抄写句子，注意大小写和标点符号)",
+    "answers": ["Old MacDonald's farm is big. It's near our school."]
+  }
+]

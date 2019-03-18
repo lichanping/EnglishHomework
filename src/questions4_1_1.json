@@ -1,0 +1,100 @@
+[
+  {
+    "question": "The fat boy likes climbing trees. （改成一般疑问句）",
+    "answers": ["Does the fat boy like climbing trees?"]
+  },
+  {
+    "question": "I study at home.（改为一般疑问句）",
+    "answers": ["Do you study at home?"]
+  },
+  {
+    "question": "The boy doesn't have a key ring.（改为肯定句）",
+    "answers": ["The boy has a key ring."]
+  },
+  {
+    "question": "She works \"in the hospital\".（对画线部分提问）",
+    "answers": ["Where does she work?"]
+  },
+  {
+    "question": "Are they watching TV?（作否定回答）",
+    "answers": ["No, they aren't.", "No, they are not."]
+  },
+  {
+    "question": "My father is \"a bank clerk\".（对画线部分提问）",
+    "answers": [
+      "What is your father's job?",
+      "What's your father's job?",
+      "What does your father do?"
+    ]
+  },
+  {
+    "question": "That tall man is \"Jack\". (划线部分提问) ",
+    "answers": ["Who's that tall man?", "Who is that tall man?"]
+  },
+  {
+    "question": "The girl \"in the short black dress\" can dance very well. (划线部分提问)",
+    "answers": ["Which girl can dance well?"]
+  },
+  {
+    "question": "There are some desks and chairs in the classroom. (改成否定句)",
+    "answers": [
+      "There are not any desks or chairs in the classroom.",
+      "There aren't any desks or chairs in the classroom."
+    ]
+  },
+  {
+    "question": "There are no classrooms in the forest. （意思不变，另写一句)",
+    "answers": ["There are not any classrooms in the forest."]
+  },
+  {
+    "question": "What's the matter? （意思不变，另写一句）",
+    "answers": ["What is wrong?", "What's wrong?"]
+  },
+  {
+    "question": "Mr Black is \"a teacher from the UK\". (划线部分提问)",
+    "answers": ["What does Mr. Black do?", "What is Mr Black's job?"]
+  },
+  {
+    "question": "There are a lot of books in the library. (改成否定句)",
+    "answers": ["There aren't many books in the library."]
+  },
+  {
+    "question": "There is \"a big clothes shop\" on Nanjing Road. (划线部分提问)",
+    "answers": ["What is on Nanjing Road?"]
+  },
+  {
+    "question": "I want \"a\" bottle of water. (划线部分提问)",
+    "answers": ["How many bottles of water do you want?"]
+  },
+  {
+    "question": "I want \"a bottle of\" water. (划线部分提问)",
+    "answers": ["How much water do you want?"]
+  },
+  {
+    "question": "How much is the loaf of bread? （改为复数）",
+    "answers": ["How much are the loaves of bread?"]
+  },
+  {
+    "question": "We can \"take the school bus\" to Century Park? (划线部分提问)",
+    "answers": ["How can you go to Century Park?"]
+  },
+  {
+    "question": "Danny is riding the bicycle \"near the fountain\". (划线部分提问)",
+    "answers": ["Where is Danny riding the bicycle?"]
+  },
+  {
+    "question": "Peter is \"showing his photos\". (划线部分提问)",
+    "answers": ["What is Peter doing?"]
+  },
+  {
+    "question": "How's the weather in spring? (改为同义句)",
+    "answers": [
+      "What's the weather like in spring?",
+      "What is the weather like in spring?"
+    ]
+  },
+  {
+    "question": "It's sunny. （改为同义句）",
+    "answers": ["It's a sunny day.", "It's fine."]
+  }
+]

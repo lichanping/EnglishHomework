@@ -1,10 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 
-const Question = ({ question, answers: expectedAnswers, showAnswer }) => {
-  const [inputAnswer, setInputAnswer] = useState("");
-
-  const onInput = event => {
-    setInputAnswer(event.target.value);
+const Question = ({
+  question,
+  expectedAnswers,
+  inputAnswer,
+  showAnswer,
+  onInputAnswerChange
+}) => {
+  const onChange = event => {
+    const value = event.target.value;
+    onInputAnswerChange(value);
   };
 
   // let isCorrect = false;
@@ -19,7 +24,11 @@ const Question = ({ question, answers: expectedAnswers, showAnswer }) => {
     <tr>
       <td className={isCorrect ? "green" : "purple"}>{question}</td>
       <td>
-        <textarea className="my_answer" value={inputAnswer} onInput={onInput} />
+        <textarea
+          className="my_answer"
+          value={inputAnswer}
+          onChange={onChange}
+        />
       </td>
       <td className={showAnswer ? "normal" : "hidden"}>{expectedAnswers}</td>
     </tr>

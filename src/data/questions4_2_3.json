@@ -1,0 +1,34 @@
+[
+  {
+    "question": "阅读短文首字母填空并回答问题",
+    "answers": [""]
+  },
+  {
+    "question": "Tom and his mother are s(   ) at the table. They are having their lunch.",
+    "answers": ["sitting"]
+  },
+  {
+    "question": "\"I don't like this soup. I don't want to eat it, \" says Tom and puts down his s(   ).",
+    "answers": ["soup"]
+  },
+  {
+    "question": "\"All right. Don't eat is then.\" His mother says.",
+    "answers": [""]
+  },
+  {
+    "question": "After lunch Tom and his mother go to the farm and work hard there. In the evening Tom's mother gives a b(   ) of soup to Tom for dinner. ",
+    "answers": ["bowl"]
+  },
+  {
+    "question": "\"Oh, how delicious!\" says Tom. ",
+    "answers": [""]
+  },
+  {
+    "question": "\"It's the same soup,\" says his mother with a s(   )",
+    "answers": ["smile"]
+  },
+  {
+    "question": "回答问题:4. What does Tom's mother give him for dinner?",
+    "answers": ["A bowl of the same soup", "A bowl of the same soup."]
+  }
+]

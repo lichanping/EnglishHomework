@@ -2,11 +2,12 @@ import React, { useReducer, useState } from "react";
 import ReactDOM from "react-dom";
 
 import Question from "./Question.js";
-import questionsBank from "./questions4_1_1.json";
+import questionsBanks from "./questionBanks";
 
 import "./styles.css";
 
-const INITIAL_STATE = questionsBank.reduce(
+// TODO fix
+const INITIAL_STATE = questionsBanks[0].questionBank.reduce(
   (memo, { question }) => ({
     ...memo,
     [question]: localStorage.getItem(`question.${question}`) || ""
@@ -16,6 +17,8 @@ const INITIAL_STATE = questionsBank.reduce(
 
 function App() {
   const [showAnswer, setShowAnswer] = useState(false);
+
+  const [currentBankIndex, setCurrentBankIndex] = useState(0);
 
   const [inputAnswers, updateAnswers] = useReducer(
     (previousInputAnswers, action) => {
@@ -39,36 +42,55 @@ function App() {
 
   const onSubmit = () => {
     setShowAnswer(!showAnswer);
+    if (showAnswer) {
+      document.getElementById("showAnswer").textContent = "显示答案";
+    } else {
+      document.getElementById("showAnswer").textContent = "隐藏答案";
+    }
   };
 
   const onClear = () => {
     localStorage.clear();
   };
 
+  const onSelectBank = event => {
+    const bankIndex = +event.target.value;
+    setCurrentBankIndex(bankIndex);
+  };
+
   return (
     <div className="App">
-      <h1>英语错题本</h1>
-      <h2>
-        <span>姓名</span>
-        <span className="Spaces"> </span>
-        <span>班级</span>
-        <span className="Spaces"> </span>
-      </h2>
-      <hr />
+      <h2>★英语错题本</h2>
+      <img
+        src="https://cns.ef-cdn.com/juno/51/38/34/v/513834/Reading.jpg"
+        alt="每日一读"
+        className="HeaderImg"
+      />
+      <span>子题集: </span>
+      <select value={currentBankIndex} onChange={onSelectBank}>
+        {questionsBanks.map((questionBankItem, index) => {
+          return (
+            <option key={questionBankItem.name} value={index}>
+              {questionBankItem.name}
+            </option>
+          );
+        })}
+      </select>
       <table>
         <tbody>
           <tr>
-            <th width="30%">Question</th>
-            <th width="40%">Your Answer</th>
-            <th width="30%">Correct Answer</th>
+            <th width="30%">题目</th>
+            <th width="5%">正确</th>
+            <th width="40%">您的解答</th>
+            <th width="25%">参考答案（点击显示答案按钮）</th>
           </tr>
-          {questionsBank.map(questionItem => {
+          {questionsBanks[currentBankIndex].questionBank.map(questionItem => {
             return (
               <Question
                 key={questionItem.question}
                 question={questionItem.question}
                 expectedAnswers={questionItem.answers}
-                inputAnswer={inputAnswers[questionItem.question]}
+                inputAnswer={inputAnswers[questionItem.question] || ""}
                 showAnswer={showAnswer}
                 onInputAnswerChange={newInputAnswer => {
                   updateAnswers({
@@ -85,12 +107,17 @@ function App() {
         </tbody>
       </table>
       <div className="fixed">
-        <button type="button" onClick={onSubmit}>
+        <button type="button" onClick={onSubmit} id="showAnswer">
           显示答案
         </button>
         <button type="button" onClick={onClear}>
           清除答案
         </button>
+      </div>
+      <div className="copyright">
+        copyright by Shirley娉娉.
+        <br />
+        Question Bank provided by Lucy.
       </div>
     </div>
   );

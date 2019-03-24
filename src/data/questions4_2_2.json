@@ -1,0 +1,66 @@
+[
+  {
+    "question": "根据音标 /ɪə/ 在括号内填入所缺字母： t(   ) b(   )(用逗号分隔）",
+    "answers": ["tear beer"]
+  },
+  {
+    "question": "用所给单词的适当形式填空：It's 11 o'clock. The students (   ) (have) an English lesson.",
+    "answers": ["are having"]
+  },
+  {
+    "question": "选择最佳答案前面的字母：Look! There's a big fire! Here (   ) many firemen. A. comes; B.coming; C:come",
+    "answers": ["C"]
+  },
+  {
+    "question": "Whose old benches are those? （改为单数句）",
+    "answers": ["Whose old bench is that?"]
+  },
+  {
+    "question": "根据情景选择句子，完成对话, 用前面的首字母填空：",
+    "answers": [""]
+  },
+  {
+    "question": "A. It's a beautiful sunny day. B. The black shape follows me everywhere.",
+    "answers": [""]
+  },
+  {
+    "question": "C. Look, the sun is high in the sky. D. The sun rises in the morning.",
+    "answers": [""]
+  },
+  {
+    "question": "E. The sun goes down in the evening. F, It's your shadow.",
+    "answers": [""]
+  },
+  {
+    "question": "Alice has no schools today. She's sleeping in bed now.",
+    "answers": [""]
+  },
+  {
+    "question": "Mum: Alice, get up. It's too late. (   )",
+    "answers": ["C", "c"]
+  },
+  {
+    "question": "Alice: OK, Mum. (   ) Can we go to the park?",
+    "answers": ["A", "a"]
+  },
+  {
+    "question": "Mum: That's a good idea. Come on, Alice. Alice and her mum are in the park now.",
+    "answers": [""]
+  },
+  {
+    "question": "Alice: Look, Mum. (   ) Sometimes it stays behind me. Sometimes it walks in front of me. It's fun",
+    "answers": ["B", "b"]
+  },
+  {
+    "question": "Mum: (   ) Your shadow is short. It's at noon.",
+    "answers": ["F", "f"]
+  },
+  {
+    "question": "Alice: I'm thirsty. Can I have some water?",
+    "answers": [""]
+  },
+  {
+    "question": "Mum: Yes, of course you can. Let's have a picnic. (   ) Alice and her mum go home together.",
+    "answers": ["E", "e"]
+  }
+]

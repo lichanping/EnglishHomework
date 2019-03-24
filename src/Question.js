@@ -22,7 +22,14 @@ const Question = ({
 
   return (
     <tr>
-      <td className={isCorrect ? "green" : "purple"}>{question}</td>
+      <td className="Spaces">{question}</td>
+      <td>
+        <img
+          alt="答对了"
+          src="https://cdn3.vectorstock.com/i/1000x1000/51/57/green-tick-check-mark-icon-cartoon-vector-13845157.jpg"
+          className={isCorrect ? "normal iconImg" : "hidden iconImg"}
+        />
+      </td>
       <td>
         <textarea
           className="my_answer"
@@ -30,7 +37,9 @@ const Question = ({
           onChange={onChange}
         />
       </td>
-      <td className={showAnswer ? "normal" : "hidden"}>{expectedAnswers}</td>
+      <td className={showAnswer ? "normal" : "hidden"}>
+        {expectedAnswers.join(" / ")}
+      </td>
     </tr>
   );
 };

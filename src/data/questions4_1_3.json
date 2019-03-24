@@ -52,23 +52,23 @@
     "answers": [""]
   },
   {
-    "question": "() Christmas, I get many presents () my parents.",
+    "question": "(   ) Christmas, I get many presents (   ) my parents.",
     "answers": ["At from"]
   },
   {
-    "question": "My little brother can count () one () one hundred.",
+    "question": "My little brother can count (   ) one (   ) one hundred.",
     "answers": ["from to"]
   },
   {
-    "question": "Monkeys can swing () their tails.",
+    "question": "Monkeys can swing (   ) their tails.",
     "answers": ["with"]
   },
   {
-    "question": "These bottles () water are for you.",
+    "question": "These bottles (   ) water are for you.",
     "answers": ["of"]
   },
   {
-    "question": "Please draw a map () your school.",
+    "question": "Please draw a map (   ) your school.",
     "answers": ["of"]
   },
   {
@@ -76,15 +76,15 @@
     "answers": [""]
   },
   {
-    "question": "Hello, everyone! I l() on Green Street. It is not busy. There is a school on it.",
+    "question": "Hello, everyone! I l(   ) on Green Street. It is not busy. There is a school on it.",
     "answers": ["live"]
   },
   {
-    "question": "It's not far a() from my home. So I walk to school w() my classmates every day.",
+    "question": "It's not far a(   ) from my home. So I walk to school w(   ) my classmates every day.",
     "answers": ["away with"]
   },
   {
-    "question": "There is a bus stop in front of the school gate. Many people t() a bus there.My mother takes a bus at this bus stop too.",
+    "question": "There is a bus stop in front of the school gate. Many people t(   ) a bus there.My mother takes a bus at this bus stop too.",
     "answers": ["take"]
   },
   {
@@ -92,7 +92,7 @@
     "answers": [""]
   },
   {
-    "question": "There is a() a mountain in the park. People like climbing the mountain in the morning. How happy they are!",
+    "question": "There is a(   ) a mountain in the park. People like climbing the mountain in the morning. How happy they are!",
     "answers": ["also"]
   },
   {
@@ -104,23 +104,23 @@
     "answers": [""]
   },
   {
-    "question": "It's Saturday tomorrow. We are going to watch a football match. It's between a Japanese team and a C() team.",
+    "question": "It's Saturday tomorrow. We are going to watch a football match. It's between a Japanese team and a C(   ) team.",
     "answers": ["Chinese"]
   },
   {
-    "question": "The football match is going to be at f() o'clock in the afternoon.",
+    "question": "The football match is going to be at f(   ) o'clock in the afternoon.",
     "answers": ["four"]
   },
   {
-    "question": "Our teachers Mr Li and Mr Wang are going to watch the football match w() us.",
+    "question": "Our teachers Mr Li and Mr Wang are going to watch the football match w(   ) us.",
     "answers": ["with"]
   },
   {
-    "question": "We are going there on f().",
+    "question": "We are going there on f(   ).",
     "answers": ["foot"]
   },
   {
-    "question": "We can come b() at about six in the evening.",
+    "question": "We can come b(   ) at about six in the evening.",
     "answers": ["back"]
   }
 ]

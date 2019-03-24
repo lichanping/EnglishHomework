@@ -4,23 +4,23 @@
     "answers": [""]
   },
   {
-    "question": "Human and pets b() have feelings.",
+    "question": "Human and pets b(   ) have feelings.",
     "answers": ["both"]
   },
   {
-    "question": "We laugh a() smile to show that we are happy. ",
+    "question": "We laugh a(   ) smile to show that we are happy. ",
     "answers": ["and"]
   },
   {
-    "question": "But dogs wag tails to tell us they f() happy. ",
+    "question": "But dogs wag tails to tell us they f(   ) happy. ",
     "answers": ["feel"]
   },
   {
-    "question": "When you see cats attack or bite, that shows they are v() angry.",
+    "question": "When you see cats attack or bite, that shows they are v(   ) angry.",
     "answers": ["very"]
   },
   {
-    "question": "Your pets and you can be friends if you l() and understand e() other.",
+    "question": "Your pets and you can be friends if you l(   ) and understand e(   ) other.",
     "answers": ["love each"]
   },
   {
@@ -32,7 +32,7 @@
     "answers": ["Wag tails", "Wag tails."]
   },
   {
-    "question": "3.Why are pets friendly to us? Because ()",
+    "question": "3.Why are pets friendly to us? Because (   )",
     "answers": ["we love and understand each other"]
   },
   {

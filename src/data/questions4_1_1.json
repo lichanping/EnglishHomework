@@ -52,7 +52,7 @@
   },
   {
     "question": "Mr Black is \"a teacher from the UK\". (划线部分提问)",
-    "answers": ["What does Mr. Black do?", "What is Mr Black's job?"]
+    "answers": ["What does Mr Black do?", "What is Mr Black's job?"]
   },
   {
     "question": "There are a lot of books in the library. (改成否定句)",
@@ -60,7 +60,7 @@
   },
   {
     "question": "There is \"a big clothes shop\" on Nanjing Road. (划线部分提问)",
-    "answers": ["What is on Nanjing Road?"]
+    "answers": ["What is on Nanjing Road?", "What's on Nanjing Road?"]
   },
   {
     "question": "I want \"a\" bottle of water. (划线部分提问)",
@@ -84,7 +84,7 @@
   },
   {
     "question": "Peter is \"showing his photos\". (划线部分提问)",
-    "answers": ["What is Peter doing?"]
+    "answers": ["What is Peter doing?", "What's Peter doing?"]
   },
   {
     "question": "How's the weather in spring? (改为同义句)",

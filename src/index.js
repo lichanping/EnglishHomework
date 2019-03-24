@@ -7,7 +7,12 @@ import questionsBanks from "./questionBanks";
 import "./styles.css";
 
 // TODO fix
-const INITIAL_STATE = questionsBanks[0].questionBank.reduce(
+var questionBank = [];
+
+for (var i = 0; i < questionsBanks.length; ++i) {
+  questionBank = questionBank.concat(questionsBanks[i].questionBank);
+}
+const INITIAL_STATE = questionBank.reduce(
   (memo, { question }) => ({
     ...memo,
     [question]: localStorage.getItem(`question.${question}`) || ""
@@ -62,7 +67,7 @@ function App() {
     <div className="App">
       <h2>★英语错题本</h2>
       <img
-        src="https://cns.ef-cdn.com/juno/51/38/34/v/513834/Reading.jpg"
+        src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553443200617&di=dc8cf6a8d92276ea820eb0f6456408e0&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fq_70%2Cc_zoom%2Cw_640%2Fimages%2F20181011%2F79777f35f7c34ea187c0c6ee15cf2cc0.jpeg"
         alt="每日一读"
         className="HeaderImg"
       />

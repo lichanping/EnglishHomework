@@ -1,10 +1,10 @@
 [
   {
-    "question": "判断正误，用T/F表示. <Great Time>",
+    "question": "判断正误，用T/F表示. ",
     "answers": [""]
   },
   {
-    "question": "Time: 11:00 AM; Date: Oct.5th; Day:Wednesday;",
+    "question": "<Great Time> Time: 11:00 AM; Date: Oct.5th; Day:Wednesday;",
     "answers": [""]
   },
   {
@@ -60,19 +60,19 @@
     "answers": [""]
   },
   {
-    "question": "Ben Webb is going to be eleven years old tomorrow. Ben's mother is going to give a b() party to him.",
+    "question": "Ben Webb is going to be eleven years old tomorrow. Ben's mother is going to give a b(   ) party to him.",
     "answers": ["big"]
   },
   {
-    "question": "Now all the family members are b() now. Mrs Webb is making a birthday cake.",
+    "question": "Now all the family members are b(   ) now. Mrs Webb is making a birthday cake.",
     "answers": ["busy"]
   },
   {
-    "question": "Ben and his sister help to c() the house.",
+    "question": "Ben and his sister help to c(   ) the house.",
     "answers": ["clean"]
   },
   {
-    "question": "Now Mr Webb is talking w() Mrs Webb.",
+    "question": "Now Mr Webb is talking w(   ) Mrs Webb.",
     "answers": ["with"]
   },
   {
@@ -80,7 +80,7 @@
     "answers": [""]
   },
   {
-    "question": "Mrs Webb: Yes. Can you go s() now?",
+    "question": "Mrs Webb: Yes. Can you go s(   ) now?",
     "answers": ["shopping"]
   },
   {
@@ -88,7 +88,7 @@
     "answers": [""]
   },
   {
-    "question": "Mrs Webb: Is there any m() in the fridge?",
+    "question": "Mrs Webb: Is there any m(   ) in the fridge?",
     "answers": ["meat"]
   },
   {

@@ -61,11 +61,8 @@
     ]
   },
   {
-    "question": "He studies in a high school(改成现在进行时态) Now",
-    "answers": [
-      "he is studying in a high school.",
-      "He is studying in a high school."
-    ]
+    "question": "He studies in a high school.(改成现在进行时态) Now",
+    "answers": ["he is studying in a high school."]
   },
   {
     "question": "They are watching TV in the living room. （改为一般疑问句，并用肯定回答）",

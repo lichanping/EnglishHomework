@@ -1,10 +1,10 @@
 [
   {
-    "question": "根据表格中提供的信息，在横线上回答问题<A picnic>",
+    "question": "根据表格中提供的信息，在横线上回答问题",
     "answers": [""]
   },
   {
-    "question": "Date: Friday, June 9th; Time:11 o'clock in the morning",
+    "question": "《A picnic》 Date: Friday, June 9th; Time:11 o'clock in the morning",
     "answers": [""]
   },
   {
@@ -56,12 +56,12 @@
     "answers": [""]
   },
   {
-    "question": "\"E\"leven tw\"e\"lve",
-    "answers": ["F"]
+    "question": "(E)leven tw(e)lve",
+    "answers": ["F", "f"]
   },
   {
-    "question": "dr\"aw\" f\"our\"teen",
-    "answers": ["T"]
+    "question": "dr(aw) f(our)teen",
+    "answers": ["T", "t"]
   },
   {
     "question": "阅读信息，填写英语单词，完成短文（字数不限）",
@@ -84,19 +84,19 @@
     "answers": [""]
   },
   {
-    "question": "Hello, I'm Eddie. I am a pupil from ().",
+    "question": "Hello, I'm Eddie. I am a pupil from (   ).",
     "answers": ["Class Four, Grade Four"]
   },
   {
-    "question": "In the class, my number is ().",
+    "question": "In the class, my number is (   ).",
     "answers": ["22"]
   },
   {
-    "question": "I love () very much. I live at No.12, on Garden Road.",
+    "question": "I love (   ) very much. I live at No.12, on Garden Road.",
     "answers": ["reading and skating"]
   },
   {
-    "question": "If you want to see me, please dial 5669432. Please remember my (). Maybe we can be friends.",
+    "question": "If you want to see me, please dial 5669432. Please remember my (   ). Maybe we can be friends.",
     "answers": ["Phone Number", "Phone number", "phone number"]
   }
 ]

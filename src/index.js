@@ -4,24 +4,63 @@ import ReactDOM from "react-dom";
 import Question from "./Question.js";
 import questionsBanks from "./questionBanks";
 
+import headerImgSrc1 from "./img/header1.jpg";
+import headerImgSrc2 from "./img/header2.jpg";
+import headerImgSrc3 from "./img/header3.jpg";
+import headerImgSrc4 from "./img/header4.jpg";
+import headerImgSrc5 from "./img/header5.jpg";
+import headerImgSrc6 from "./img/header6.jpg";
+import headerImgSrc7 from "./img/header7.jpg";
+import headerImgSrc8 from "./img/header8.jpg";
+import headerImgSrc9 from "./img/header9.jpg";
+import headerImgSrc10 from "./img/header10.jpg";
+import headerImgSrc11 from "./img/header11.jpg";
+import headerImgSrc12 from "./img/header12.jpg";
+import proverbs from "./data/proverbs.json";
+
 import "./styles.css";
 
 // TODO fix
-var questionBank = [];
-
+var allQuestionsBank = [];
 for (var i = 0; i < questionsBanks.length; ++i) {
-  questionBank = questionBank.concat(questionsBanks[i].questionBank);
+  allQuestionsBank = allQuestionsBank.concat(questionsBanks[i].questionBank);
 }
-const INITIAL_STATE = questionBank.reduce(
+function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
+var headerImgList = [
+  headerImgSrc1,
+  headerImgSrc2,
+  headerImgSrc3,
+  headerImgSrc4,
+  headerImgSrc5,
+  headerImgSrc6,
+  headerImgSrc7,
+  headerImgSrc8,
+  headerImgSrc9,
+  headerImgSrc10,
+  headerImgSrc11,
+  headerImgSrc12
+];
+var randomHeaderImgSrc = headerImgList[getRandomInt(headerImgList.length)];
+var randomProverb = proverbs[getRandomInt(proverbs.length)];
+const INITIAL_STATE = allQuestionsBank.reduce(
   (memo, { question }) => ({
     ...memo,
     [question]: localStorage.getItem(`question.${question}`) || ""
   }),
   {}
 );
+const CLEAR_STATE = allQuestionsBank.reduce(
+  (memo, { question }) => ({
+    ...memo,
+    [question]: ""
+  }),
+  {}
+);
 
 function App() {
-  const [showAnswer, setShowAnswer] = useState(false);
+  const [showAllAnswers, setShowAllAnswers] = useState(false);
 
   const [currentBankIndex, setCurrentBankIndex] = useState(0);
 
@@ -37,7 +76,7 @@ function App() {
           };
         case "CLEAR":
           localStorage.clear();
-          return INITIAL_STATE;
+          return CLEAR_STATE;
         default:
       }
       return previousInputAnswers;
@@ -45,17 +84,47 @@ function App() {
     INITIAL_STATE
   );
 
+  const [answersVisibilities, updateAnswersVisibilities] = useReducer(
+    (previousAnswersVisibilities, action) => {
+      switch (action.type) {
+        case "TOGGLE":
+          const { question } = action.payload;
+          return {
+            ...previousAnswersVisibilities,
+            [question]: !previousAnswersVisibilities[question]
+          };
+        case "SET_ALL": {
+          const { visibility } = action.payload;
+          return allQuestionsBank.reduce(
+            (memo, { question }) => ({
+              ...memo,
+              [question]: visibility
+            }),
+            {}
+          );
+        }
+        default:
+      }
+      return previousAnswersVisibilities;
+    },
+    {} // TODO
+  );
+
   const onSubmit = () => {
-    setShowAnswer(!showAnswer);
-    if (showAnswer) {
-      document.getElementById("showAnswer").textContent = "显示答案";
-    } else {
-      document.getElementById("showAnswer").textContent = "隐藏答案";
-    }
+    const newVisibility = !showAllAnswers;
+    updateAnswersVisibilities({
+      type: "SET_ALL",
+      payload: {
+        visibility: newVisibility
+      }
+    });
+    setShowAllAnswers(newVisibility);
   };
 
   const onClear = () => {
-    localStorage.clear();
+    updateAnswers({
+      type: "CLEAR"
+    });
   };
 
   const onSelectBank = event => {
@@ -65,14 +134,23 @@ function App() {
 
   return (
     <div className="App">
-      <h2>★英语错题本</h2>
-      <img
-        src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1553443200617&di=dc8cf6a8d92276ea820eb0f6456408e0&imgtype=0&src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fq_70%2Cc_zoom%2Cw_640%2Fimages%2F20181011%2F79777f35f7c34ea187c0c6ee15cf2cc0.jpeg"
-        alt="每日一读"
-        className="HeaderImg"
-      />
+      <header className="Header">
+        <div className="HeaderProverb" id="HeaderProverb">
+          <p>{randomProverb.en}</p>
+          <p>{randomProverb.cn}</p>
+        </div>
+        <h2 id="HeaderTitle">★英语错题本</h2>
+        <div className="HeaderImgContainer">
+          <img
+            src={randomHeaderImgSrc}
+            id="HeaderImg"
+            alt="每日一读"
+            className="HeaderImg"
+          />
+        </div>
+      </header>
       <span>子题集: </span>
-      <select value={currentBankIndex} onChange={onSelectBank}>
+      <select id="selectBank" value={currentBankIndex} onChange={onSelectBank}>
         {questionsBanks.map((questionBankItem, index) => {
           return (
             <option key={questionBankItem.name} value={index}>
@@ -81,9 +159,9 @@ function App() {
           );
         })}
       </select>
-      <table>
+      <table id="notebookTable">
         <tbody>
-          <tr>
+          <tr id="tableHeader">
             <th width="30%">题目</th>
             <th width="5%">正确</th>
             <th width="40%">您的解答</th>
@@ -95,8 +173,16 @@ function App() {
                 key={questionItem.question}
                 question={questionItem.question}
                 expectedAnswers={questionItem.answers}
+                showAnswer={answersVisibilities[questionItem.question] || false}
+                onToggleAnswerVisibility={() => {
+                  updateAnswersVisibilities({
+                    type: "TOGGLE",
+                    payload: {
+                      question: questionItem.question
+                    }
+                  });
+                }}
                 inputAnswer={inputAnswers[questionItem.question] || ""}
-                showAnswer={showAnswer}
                 onInputAnswerChange={newInputAnswer => {
                   updateAnswers({
                     type: "UPDATE",
@@ -112,17 +198,20 @@ function App() {
         </tbody>
       </table>
       <div className="fixed">
-        <button type="button" onClick={onSubmit} id="showAnswer">
-          显示答案
-        </button>
-        <button type="button" onClick={onClear}>
-          清除答案
-        </button>
-      </div>
-      <div className="copyright">
-        copyright by Shirley娉娉.
-        <br />
-        Question Bank provided by Lucy.
+        <div />
+        <div>
+          <button type="button" onClick={onSubmit} id="showAnswer">
+            {showAllAnswers ? "隐藏答案" : "显示答案"}
+          </button>
+          <button type="button" onClick={onClear} id="clearAnswer">
+            清除答案
+          </button>
+        </div>
+        <div className="copyRight" id="copyRight">
+          copyright by Shirley娉娉.
+          <br />
+          Activity provided by Lucy.
+        </div>
       </div>
     </div>
   );

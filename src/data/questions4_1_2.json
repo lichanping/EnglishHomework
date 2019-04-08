@@ -101,6 +101,9 @@
   },
   {
     "question": "Old macdonalds farm is big its near our school(正确抄写句子，注意大小写和标点符号)",
-    "answers": ["Old MacDonald's farm is big. It's near our school."]
+    "answers": [
+      "Old MacDonald's farm is big. It's near our school.",
+      "Old MacDonald's farm is big.It's near our school."
+    ]
   }
 ]

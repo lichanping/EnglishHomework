@@ -30,5 +30,32 @@
   {
     "question": "回答问题:4. What does Tom's mother give him for dinner?",
     "answers": ["A bowl of the same soup", "A bowl of the same soup."]
+  },
+  {
+    "question": "Dad drives his car to work every day. （改成一般疑问句，肯定回答）",
+    "answers": ["Does Dad drive his car to work every day? Yes, he does."]
+  },
+  {
+    "question": "Alice often plays \"badminton\" with me.（引号部分提问）",
+    "answers": ["What does Alice often play with you?"]
+  },
+  {
+    "question": "Enjoy yourself at the party.（改为复数句）",
+    "answers": [
+      "Enjoy yourselves at the party.",
+      "Enjoy yourselves at the parties."
+    ]
+  },
+  {
+    "question": "There is \"a\" bowl of food on the boat.（引号部分提问）",
+    "answers": ["How many bowls of food are there on the boat?"]
+  },
+  {
+    "question": "Do some warm-up exercises before you go into the water. （改为否定）",
+    "answers": ["Don't do any warm-up exercises before you go into the water."]
+  },
+  {
+    "question": "Ella is shaking the tree. （改为一般现在时）",
+    "answers": ["Ella shakes the tree."]
   }
 ]

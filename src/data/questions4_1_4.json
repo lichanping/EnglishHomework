@@ -21,27 +21,27 @@
   },
   {
     "question": "1. Great Time is on the fifth of October",
-    "answers": ["T"]
+    "answers": ["T", "t"]
   },
   {
     "question": "2. Great Time is in the evening",
-    "answers": ["F"]
+    "answers": ["F", "f"]
   },
   {
     "question": "3. Young people can know new friends in Great Time",
-    "answers": ["T"]
+    "answers": ["T", "t"]
   },
   {
     "question": "4. There is no food for Great Time",
-    "answers": ["F"]
+    "answers": ["F", "f"]
   },
   {
     "question": "5. Mandy Green's phone number is 56784321",
-    "answers": ["T"]
+    "answers": ["T", "t"]
   },
   {
     "question": "6. You are ten years old. You can't go to Great Time.",
-    "answers": ["T"]
+    "answers": ["T", "t"]
   },
   {
     "question": "判断正误，用T/F表示.",
